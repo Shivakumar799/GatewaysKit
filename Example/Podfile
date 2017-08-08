@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GatewaysKit_Example' do
+  pod 'GatewaysKit', :path => '../'
+
+  target 'GatewaysKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
